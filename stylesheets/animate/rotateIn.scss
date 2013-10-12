@@ -23,7 +23,7 @@
   100% {transform-origin: center center; transform: rotate(0); opacity: 1;}
 }
 
-@mixin rotateIn($duration, $delay, $function, $fill, $visibility) {
+@mixin rotateIn($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(rotateIn);
   @include duration($duration);
   @include delay($delay);

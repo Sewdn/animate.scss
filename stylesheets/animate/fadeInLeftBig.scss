@@ -23,7 +23,7 @@
   100% {opacity: 1; transform: translateX(0);}
 }
 
-@mixin fadeInLeftBig($duration, $delay, $function, $fill, $visibility) {
+@mixin fadeInLeftBig($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(fadeInLeftBig);
   @include duration($duration);
   @include delay($delay);

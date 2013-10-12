@@ -23,7 +23,7 @@
   100% {opacity: 1; transform: translateX(0);}
 }
 
-@mixin fadeInLeft($duration, $delay, $function, $fill, $visibility) {
+@mixin fadeInLeft($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(fadeInLeft);
   @include duration($duration);
   @include delay($delay);

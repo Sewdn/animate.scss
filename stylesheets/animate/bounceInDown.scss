@@ -33,7 +33,7 @@
   100% {transform: translateY(0);}
 }
 
-@mixin bounceInDown($duration, $delay, $function, $fill, $visibility) {
+@mixin bounceInDown($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(bounceInDown);
   @include duration($duration);
   @include delay($delay);

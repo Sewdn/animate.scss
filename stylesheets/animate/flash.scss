@@ -23,7 +23,7 @@
 	25%, 75% {opacity: 0;}
 }
 
-@mixin flash($duration, $delay, $function, $fill, $visibility) {
+@mixin flash($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
 	@include animation-name(flash);
   @include duration($duration);
 	@include delay($delay);

@@ -29,7 +29,7 @@
   100% {transform: perspective(400px) rotateY(0deg); opacity: 1;}
 }
 
-@mixin flipInY($duration, $delay, $function, $fill, $visibility) {
+@mixin flipInY($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(flipInY);
   @include duration($duration);
   @include delay($delay);

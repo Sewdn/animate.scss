@@ -22,7 +22,7 @@
   100% {transform-origin: right bottom; transform: rotate(0); opacity: 1;}
 }
 
-@mixin rotateInDownRight($duration, $delay, $function, $fill, $visibility) {
+@mixin rotateInDownRight($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(rotateInDownRight);
   @include duration($duration);
   @include delay($delay);

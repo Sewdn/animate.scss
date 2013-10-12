@@ -23,7 +23,7 @@
   100% {opacity: 1; transform: translateX(0);}
 }
 
-@mixin fadeInRight($duration, $delay, $function, $fill, $visibility) {
+@mixin fadeInRight($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(fadeInRight);
   @include duration($duration);
   @include delay($delay);

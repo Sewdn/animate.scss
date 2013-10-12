@@ -23,7 +23,7 @@
 	100% {transform-origin: center center; transform: rotate(200deg); opacity: 0;}
 }
 
-@mixin rotateOut($duration, $delay, $function, $fill, $visibility) {
+@mixin rotateOut($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
 	@include animation-name(rotateOut);
   @include duration($duration);
   @include delay($delay);

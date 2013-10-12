@@ -38,7 +38,7 @@
   100% {transform: translateY(700px); opacity: 0;}
 }
 
-@mixin hinge($duration, $delay, $function, $fill, $visibility) {
+@mixin hinge($duration: 1s, $delay: .2s, $function: ease, $fill: both, $visibility: hidden) {
   @include animation-name(hinge);
   @include duration($duration);
   @include delay($delay);
