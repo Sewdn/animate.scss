@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.0.1"
-  s.date = "2013-10-16"
+  s.version = "0.1.0"
+  s.date = "2015-01-04"
 
   # Gem Details
   s.name = "compass-animate"
@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
 
   # Gem Bookkeeping
   s.rubygems_version = %q{1.3.6}
-  s.add_dependency("compass", [">= 0.11"])
+  s.add_dependency("compass", [">= 1.0"])
 end
